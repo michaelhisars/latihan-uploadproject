@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.navbar{
+    background-color: black !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-brand img{
+  width: 76px !important;
+  height: auto;
+}
+.navbar .nav-link {
+  padding-left:36px !important;
+  padding-right: 36px !important;
+  color: white !important;
+  font-size: 1.15rem;
+}
+.navbar .nav-link:hover {
+  color: #f7d316 !important; /* ganti dengan warna yang kamu mau */
+  transition: color 0.2s;
+}
+.navbar .dropdown-toggle::after {
+    display: none !important;
+}
+.dropdown-menu {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background-color: black !important;
+  margin-top: 0 !important; /* menghilangkan jarak antara dropdown dan navbar */
+
+}
+.dropdown-item {
+    color: white !important;
+    padding: 10px 20px !important; /* mengatur padding item dropdown */
+}
+.dropdown-item:hover {
+    background-color: #f7d316 !important; /* ganti dengan warna yang kamu mau */
+    color: black !important; /* ganti dengan warna teks yang kamu mau */
+    transition: background-color 0.2s, color 0.2s;
+        font-style: bold !important;
+}
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 550px;    
+  object-fit: cover;   
+}
+.carousel-caption-bottom-right  {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  color: #fff;
+  z-index: 10;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-item {
+  position: relative;
+}
+.card-container {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin: 0;
+}
+
+.card {
+  background-color:#f7d316;
+  border-radius: 0% !important;
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: none;
+  border: none;
+  height: 187px;
+}
+
+.photocard-container {
+  display: flex;
+  gap: 40px;          
+  justify-content: center;
+  margin: 40px ;
+}
+.photocard-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 20px; /* jarak atas */
+}
+.card-text{
+  padding: 0 20px; /* kiri dan kanan 20px, bisa diubah sesuai kebutuhan */
+  box-sizing: border-box;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.photocard {
+  width: 23rem;
+  height: 28rem;
+  background-color: #f7d316 !important;
+  box-shadow: none; 
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.photocard img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.photocard:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.video-jumbotron {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.youtube-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.youtube-bg iframe {
+  width: 100vw;
+  height: 56.25vw; 
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(0.6);
+}
+.video-caption-kanan {
+  position: absolute;
+  right: 24px;
+  bottom: 32px;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.bg {
+  background-color: #f7d316;
+  height: 21rem;
+  display: flex;
+  align-items: center; 
+  gap: 32px;
+}
+.cardkon .card-body {
+  padding: 1.25rem; 
+}
+.cardkon {
+  width: 50rem;
+  height: 100%;
+  min-width: 20rem;
+  max-width: 20rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 0 0 0 0px;
+  border: none;
+}
+
+.cardkon .card-body {
+  padding: 1rem; /* atau sesuaikan, misal 20px */
+}
+
+.cardkon .card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25rem;   /* gambar selebar card */
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-info {
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.title-info h1 {
+  white-space: nowrap;
+  font-size: 2.2rem;
+}
+.cardkon-text {
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 90px;
+}
+.bg.hitam {
+  flex-direction: row-reverse;
+}
+.footer > div > div {
+  border-left: 1px solid #555;
+  padding-left: 24px;
+}
+
